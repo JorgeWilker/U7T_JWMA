@@ -21,8 +21,8 @@
 #define NUMERO_LEDS 25 // Número de LEDs na matriz
 #define TEMPO_DEBOUNCE 500 // Tempo de debounce em milissegundos
 #define DURACAO_DETECCAO 1500 // Duração da detecção ativa em milissegundos
-#define GANHO_AMPLITUDE 1 // Ganho aplicado à amplitude do sinal
-#define FATOR_REDUCAO_POTENCIA 0.01 // Fator de redução de potência para LEDs
+#define GANHO_AMPLITUDE 1.3 // Ganho aplicado à amplitude do sinal
+#define FATOR_REDUCAO_POTENCIA 0.05 // Fator de redução de potência para LEDs
 
 uint16_t OFFSET_MIC = 2048; // Offset inicial do microfone
 PIO np_pio; // Variável para o PIO usado
